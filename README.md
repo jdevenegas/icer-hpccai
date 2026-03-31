@@ -14,7 +14,7 @@ In order to run the code in this repo, we recommend starting an interactive Jupy
 * Jupyter location: Conda Environment using Miniforge3 module
 * Conda Environment name or path: `/mnt/research/HPCC_AI_Workshop/.conda/envs/hpccai` 
 * Working directory: /your/space/icer-hpccai (e.g., /mnt/home/$USER/icer-hpccai/ or wherever you cloned this repo)
-* Use GPUs: Check and select `1` for number of GPUs and `any ` for GPU type.
+* Use GPUs: Check and select `1` for number of GPUs and `any` for GPU type.
 * Number of tasks: 1
 
 > If you would like to run and test larger llm and/or embedding models, you can request specific GPU types, referencing the [ICER Cluster Resources](https://docs.icer.msu.edu/Cluster_Resources/) docs page. 
