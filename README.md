@@ -19,7 +19,7 @@ In order to run the code in this repo, we recommend starting an interactive Jupy
 * Use GPUs: Check and select `1` for number of GPUs and `any` for GPU type.
 * Number of tasks: 1
 
-> If you would like to run and test larger llm and/or embedding models, you can request specific GPU types, referencing the [ICER Cluster Resources](https://docs.icer.msu.edu/Cluster_Resources/) docs page. 
+> If you would like to run and test larger llm and/or embedding models, you can request specific GPU types, referencing the [ICER Cluster Resources](https://docs.icer.msu.edu/Cluster_Resources/) docs page. Additionally, you may look at vram requirement calculators and web pages (e.g., https://apxml.com/tools/vram-calculator) for some direction when running/testing different local models on the HPCC. Most of the model inference quantization levels of our common space models are between Q4 and Q8, and you can change the KV Cache quantization with Ollama (see `ollama-demo.pdf` to get this info).  
 
 ### Starting Ollama and running the tutorials
 Once your session starts, open Jupyter and go to **File > New > Terminal**
