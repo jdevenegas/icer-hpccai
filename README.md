@@ -5,15 +5,15 @@ GenAI on the High-Performance Computing Center (HPCC) seminar content: workshop 
 Open up a new dev node terminal (via OnDemand or an ssh client) and `git clone` the repository URL to create a copy of the code into your home directory. Note: you can also just copy the code from the workshop folder `/mnt/research/HPCC_AI_Workshop/icer-hpccai` into your home folder like we did during the workshop, but this is a more permanent solution. 
 
 ## Accessing Materials 
-This repository contains all of the code and slides presented during the workshop. The materials required to run the Python Notebook files in this repo (e.g., ICER docs) can be found on the MSU HPCC research space for the workshop (/mnt/research/HPCC_AI_Workshop). All registered participants in the workshop should have access to this research space.   
+This repository contains all of the code and slides presented during the workshop. The materials required to run the Python Notebook files in this repo (e.g., ICER docs) can be found on the MSU HPCC research space for the workshop (`/mnt/research/HPCC_AI_Workshop`). All registered participants in the workshop should have access to this research space.   
 
 ## Running the code in this repo on the MSU HPCC 
 In order to run the code in this repo, we recommend starting an interactive Jupyter session on the MSU HPCC (like we did during the workshop). However, because the dedicated node space is no longer reserved for us like it was during the workshop, you'll need to configure the interactive session slightly differently. In particular, you will not be able to use the `genai_workshop` account; you should use the general account, or a buy-in account if you have one.
 
 ### Configuring the interactive session 
 * Jupyter location: Conda Environment using Miniforge3 module
-* Conda Environment name or path: /mnt/research/HPCC_AI_Workshop/.conda/envs/hpccai 
-* Working directory: /your/home/dir (e.g., /mnt/home/<netID>/Documents/)
+* Conda Environment name or path: `/mnt/research/HPCC_AI_Workshop/.conda/envs/hpccai` 
+* Working directory: /your/home/dir (e.g., /mnt/home/\<netID\>/Documents/)
 * Use GPUs: Check and select `1` for number of GPUs and `any ` for GPU type.
 * Number of tasks: 1
 
