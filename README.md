@@ -13,7 +13,7 @@ In order to run the code in this repo, we recommend starting an interactive Jupy
 ### Configuring the interactive session 
 * Jupyter location: Conda Environment using Miniforge3 module
 * Conda Environment name or path: `/mnt/research/HPCC_AI_Workshop/.conda/envs/hpccai` 
-* Working directory: /your/home/dir (e.g., /mnt/home/\<netID\>/Documents/)
+* Working directory: /your/space/icer-hpccai (e.g., /mnt/home/\<netID\>/icer-hpccai/ or wherever you cloned this repo)
 * Use GPUs: Check and select `1` for number of GPUs and `any ` for GPU type.
 * Number of tasks: 1
 
