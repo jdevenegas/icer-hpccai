@@ -10,7 +10,6 @@ from langchain_chroma import Chroma
 
 # ==========================================
 EMBED_MODEL = "mxbai-embed-large:latest"
-#LLM_MODEL = "gpt-oss:20b"
 LLM_MODEL = "llama3.2:3b"
 # ==========================================
 
@@ -94,7 +93,7 @@ Answer clearly and concisely:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Local faq chatbot w/ Ollama embeddings/llms + local docs"
+        description="Local docs chat assistant w/ Ollama embeddings/llms + local docs"
     )
     parser.add_argument(
         "--data_path",
