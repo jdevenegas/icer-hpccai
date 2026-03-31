@@ -37,7 +37,7 @@ Note that at this point some text output will appear, and it will look like the 
 
 Now we’ve got Ollama up and running so we should be able to run the tutorials! Just make sure that you change the port number in the Python notebooks to match the port you specified in the terminal. 
 
-On the left side of the Jupyter screen should be the workshop directory you created at the beginning of these instructions. Double click docs_bot_kb.ipynb to open up the docs bot tutorial and you’re off to the races! You'll also see the structured output (interaction extraction) tutorial in the interaction_extraction.ipynb notebook. 
+On the left side of the Jupyter screen should be the workshop directory you created at the beginning of these instructions. Double click `docs_knowledge_base.ipynb` to open up the docs bot tutorial and you’re off to the races! You'll also see the interaction extraction tutorial in the `interaction_extraction.ipynb` notebook. The docs knowledge base tutorial focuses on an unstructured output use-case, building a vector store of embedded reference docs, and includes next steps to build an interactive docs assistant. The interaction extraction tutorial focuses on a strucutured output use-case, with text excerpts as input and output structured through json schemas and/or system instructions. This includes next steps to iterate over a full set of text excerpts to get a full table of extracted species interactions. 
 
 ## Questions
 If you have any questions about the materials or workflows, please contact Julian Venegas (venegas5@msu.edu) or Kelly Kapsar (kapsarke@msu.edu). 
