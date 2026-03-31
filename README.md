@@ -8,7 +8,9 @@ Open up a new dev node terminal (via OnDemand or an ssh client) and `git clone` 
 This repository contains all of the code and slides presented during the workshop. The materials required to run the Python Notebook files in this repo (e.g., ICER docs) can be found on the MSU HPCC research space for the workshop (`/mnt/research/HPCC_AI_Workshop`). All registered participants in the workshop should have access to this research space.   
 
 ## Running the code in this repo on the MSU HPCC 
-In order to run the code in this repo, we recommend starting an interactive Jupyter session on the MSU HPCC (like we did during the workshop). However, because the dedicated node space is no longer reserved for us like it was during the workshop, you'll need to configure the interactive session slightly differently. In particular, you will not be able to use the `genai_workshop` account; you should use the general account, or a buy-in account if you have one.
+In order to run the code in this repo, we recommend starting an interactive Jupyter session on the MSU HPCC (like we did during the workshop). However, because the dedicated node space is no longer reserved for us like it was during the workshop, you'll need to configure the interactive session slightly differently. In particular, **<ins>you will not be able to use the</ins>** `genai_workshop` **<ins>account; you should use the general account, or a buy-in account if you have one</ins>**.
+
+> You can simply leave the account blank, or not set and it will default to general or buy-in (if you have one)
 
 ### Configuring the interactive session 
 * Jupyter location: Conda Environment using Miniforge3 module
